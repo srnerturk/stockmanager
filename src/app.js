@@ -1,6 +1,7 @@
 import React from 'react';
 import LoginContainer from './containers/Login/LoginContainer';
 import HomeContainer from './containers/Home/HomeContainer';
+import NotFoundContainer from './containers/NotFound/NotFoundContainer';
 import './app.scss';
 import {
   BrowserRouter as Router,
@@ -57,6 +58,10 @@ function App() {
           </Route>
           <Route exact path="/">
             <HomeContainer />
+          </Route>
+
+          <Route>
+            <NotFoundContainer />
           </Route>
         </AnimatedSwitch>
 

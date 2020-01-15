@@ -1,7 +1,7 @@
 .content{
 
   .boxes{
-    width: 750px;
+    width: 600px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -12,13 +12,13 @@
       align-items: center;
       flex-direction: column;
       position: relative;
-      width: 250px;
-      height: 200px;
+      width: 200px;
+      height: 150px;
       h3{
         font-weight: 900;
         font-size:13px;
         color:#fff;
-        background:#2c3e50;
+  
         padding: 10px;
         border-radius: 5px;
         position: absolute;
@@ -45,7 +45,7 @@
       background: #27ae60;
     }
     .light-gray{
-      background: #ecf0f1;
+      background: #d35400;
     
     }
   }

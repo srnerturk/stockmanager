@@ -15,7 +15,7 @@ function HomeContainer() {
     <div className="page-content">
       <div className="content">
         <div className="boxes">
-          <Link to="/yeni-urun"  className="box red">
+          <Link to="/yeni-urun" className="box red">
             <h3>Yeni Ürün</h3>
             <img alt="new product" src={newProduct} />
           </Link>
@@ -39,6 +39,10 @@ function HomeContainer() {
           <Link to="/ayarlar" className="box green">
             <h3>Ayarlar</h3>
             <img alt="new product" src={settings} />
+          </Link>
+          <Link to="/raporlar" className="box red">
+            <h3>Raporlar</h3>
+            <img alt="new product" src={productList} />
           </Link>
         </div>
       </div>

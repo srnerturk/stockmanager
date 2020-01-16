@@ -2,6 +2,7 @@ import React from 'react';
 import LoginContainer from './containers/Login/LoginContainer';
 import HomeContainer from './containers/Home/HomeContainer';
 import NotFoundContainer from './containers/NotFound/NotFoundContainer';
+import NewProductContainer from './containers/NewProduct/NewProductContainer';
 import './app.scss';
 import {
   BrowserRouter as Router,
@@ -55,6 +56,9 @@ function App() {
         >
           <Route path="/giris-yap">
             <LoginContainer />
+          </Route>
+          <Route path="/yeni-urun">
+            <NewProductContainer />
           </Route>
           <Route exact path="/">
             <HomeContainer />
